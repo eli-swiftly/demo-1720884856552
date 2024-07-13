@@ -1,0 +1,36 @@
+/* src/global-styles.css */
+
+@font-face {
+  font-family: 'Helvetica Neue';
+  src: url('/fonts/helveticaneue.woff2') format('woff2'),
+       url('/fonts/helveticaneue.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Helvetica Neue';
+  src: url('/fonts/helveticaneue-medium.woff2') format('woff2'),
+       url('/fonts/helveticaneue-medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Helvetica Neue';
+  src: url('/fonts/helveticaneue-bold.woff2') format('woff2'),
+       url('/fonts/helveticaneue-bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+body, html {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
